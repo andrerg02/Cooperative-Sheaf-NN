@@ -52,10 +52,5 @@ We provide further details on sheaf-specific hyperparameters below:
 
 ## Further details
 
-The model used for the experiments in the paper is the DenseCSNNConv, that explicitly construct the Laplacian using the restriction maps.  
-We provide a lighter implementation using the MessagePassing class from [PyG](https://pyg.org), following equations (4) and (5) in the paper, which we call CSNNConv. **This implementation has ~50% lower peak memory usage and achieves faster runtime in general.**
-
-To facilitate integration with other experimental setups, the file `detached_model.py` contains an implementation of the model using the `MessagePassing` class, which can be instantiated in a
-similar fashion of other PyG models such as GCN and GAT. This file is self-contained and does not depend on any other modules contained in the repository.
-
+To facilitate integration with other experimental setups, the file `model.py` contains an implementation of the model using the `MessagePassing` class, which can be instantiated in a manner similar to other PyG models such as GCN and GAT. This file is self-contained and does not depend on any other modules in the reproducibility release.
 
