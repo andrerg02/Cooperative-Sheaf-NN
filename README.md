@@ -4,7 +4,7 @@ Repository containing the code from the paper [Cooperative Sheaf Neural Networks
 
 ![](https://github.com/ML-FGV/neural-sheaf-diffusion/blob/master/cooperative_sheaves/figures/sheaves.svg)
 
-To reproduce our experiments, go to [this](https://github.com/andrerg02/Cooperative-Sheaf-NN/releases/tag/ICLR-Reproducibility) release and follow the instructions below.
+To reproduce our experiments, go to [this](https://github.com/andrerg02/Cooperative-Sheaf-NN/releases/tag/ICLR-Reproducibility) release and follow the instructions below. If you just wish to use our model, just install the dependencies and check the `example.ipynb` file.
 
 ## Environment setup
 
